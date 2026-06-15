@@ -1,5 +1,4 @@
 "use client";
-<meta name="google-site-verification" content="Am3-O9IUWx-B-bijs6mrKA3htlh27aUjKt8_oN61-og" />
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";

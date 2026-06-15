@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Divjot Singh Arora | Developer, Builder & Speaker",
   description:
     "Portfolio of Divjot Singh Arora, a developer, builder, TEDx speaker, community leader, and young entrepreneur turning ideas into useful technology.",
+    verification: {
+    google: 'Am3-O9IUWx-B-bijs6mrKA3htlh27aUjKt8_oN61-og',
+    },
   keywords: [
     "Divjot Singh Arora",
     "developer",
