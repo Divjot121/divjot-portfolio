@@ -227,7 +227,7 @@ export function Portfolio() {
             transition={{ duration: 0.8, delay: 0.45 }}
           >
             <div><strong>25+</strong><span>Speaking events</span></div>
-            <div><strong>10K+</strong><span>People reached</span></div>
+            <div><strong>50K+</strong><span>People reached</span></div>
             <div><strong>30k+</strong><span>Developers reached</span></div>
           </motion.div>
         </div>
@@ -257,7 +257,7 @@ export function Portfolio() {
 
       <section className="signal-strip" aria-label="Roles and highlights">
         <div className="signal-track">
-          {["DEVELOPER", "FOUNDER", "TEDx SPEAKER", "COMMUNITY LEADER", "AUTHOR", "PRODUCT BUILDER", "DEVELOPER", "FOUNDER", "TEDx SPEAKER", "COMMUNITY LEADER", "AUTHOR", "PRODUCT BUILDER"].map((item, index) => (
+          {["DEVELOPER", "FOUNDER", "TEDx SPEAKER", "COMMUNITY LEADER", "AUTHOR", "PRODUCT BUILDER", "DEVELOPER", "FOUNDER", "TEDx SPEAKER", "COMMUNITY LEADER", "AUTHOR", "PRODUCT BUILDER", "YOUTH LEADER"].map((item, index) => (
             <span key={`${item}-${index}`}>{item}<i>✦</i></span>
           ))}
         </div>
@@ -356,7 +356,7 @@ export function Portfolio() {
           </Reveal>
           <Reveal className="recognition-card" delay={0.08}><Mic2 /><strong>TEDx</strong><p>Speaker on youth entrepreneurship and self-starting action.</p><span>2026</span></Reveal>
           <Reveal className="recognition-card" delay={0.14}><BookOpen /><strong>Published author</strong><p>Authored coding books to make learning more practical.</p><span>Education</span></Reveal>
-          <Reveal className="recognition-card recognition-stat" delay={0.18}><b>10K+</b><p>People reached through speaking and community work.</p><span>Growing every chapter</span></Reveal>
+          <Reveal className="recognition-card recognition-stat" delay={0.18}><b>50K+</b><p>People reached through speaking and community work.</p><span>Growing every chapter</span></Reveal>
         </div>
       </section>
 
