@@ -209,7 +209,7 @@ export function Portfolio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.18 }}
           >
-            I&apos;m Divjot, a developer, builder, speaker, and community leader turning ambitious ideas into useful technology and helping others do the same.
+            I&apos;m Divjot, a developer, builder, speaker, and community & youth leader turning ambitious ideas into useful technology and helping others do the same.
           </motion.p>
           <motion.div
             className="hero-actions"
@@ -226,9 +226,9 @@ export function Portfolio() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.45 }}
           >
-            <div><strong>15+</strong><span>Speaking events</span></div>
+            <div><strong>25+</strong><span>Speaking events</span></div>
             <div><strong>10K+</strong><span>People reached</span></div>
-            <div><strong>1K+</strong><span>Developers reached</span></div>
+            <div><strong>30k+</strong><span>Developers reached</span></div>
           </motion.div>
         </div>
 
